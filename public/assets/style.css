@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2em;
+}
+
+header img {
+    max-width: 96px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: #f76c6c;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.new-member-form {
+    margin: 2em 0 4em 0;
+    text-align: center;
+}
+
+.member-item {
+    padding: 0.25em 0;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+    background: #f76c6c;
+    padding: 0.25em 0;
+}
+
+.new-member-form {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 25px;
+    background-color: #f76c6c;
+    color: #fff;
+}
+
+.new-member-form div {
+    padding: .6rem;
+}
+
+.new-member-form div label {
+    font-size: 1.2rem;
+}
+
+.new-member-form .input input {
+    width: 50%;
+    margin-top: .7rem;
+    border-radius: 5px;
+    padding: .4em;
+    border: 0px solid;
+    border-bottom: 2px solid black;
+    border-right: 1.5px solid black;
+    border-left: 1.5px solid black;
+}
+
+.new-member-form .submit-button {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.new-member-form .submit-button input {
+    padding: .5rem;
+    border: 0px solid;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.new-member-form div.input input:focus-visible {
+    outline: 0px;
+    border-bottom: 2px solid green;
+    border-right: 1.5px solid green;
+    border-left: 1.5px solid green;
+}
+
+.member-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: #f76c6c;
+}
+
+.member-list .name {
+    width: 30%;
+    padding: 1em 0;
+    margin: .2em 0 .2em 2%;
+    color: #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .new-member-form {
+        width: 40%;
+    }
+
+    .member-list .name {
+        width: 32%;
+        padding: 1em 0;
+        margin: .2em 0 .2em .35em;
+        color: #fff;
+        border-right: 2px solid #fff;
+        border-left: 2px solid #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+}
